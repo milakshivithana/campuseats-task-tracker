@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampusEats.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f17fb8fd4eda01e8a7ff28e1b20e6e9cfe382c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CampusEats.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampusEats.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

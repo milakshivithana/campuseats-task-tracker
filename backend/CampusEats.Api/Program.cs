@@ -16,6 +16,17 @@ var builder = WebApplication.CreateBuilder(args);
 // ------------------------------------
 
 builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Frontend", policy =>
+    {
+        policy.WithOrigins(
+            "https://campuseats-task-tracker-j2c1bm8fx-milakshivithanas-projects.vercel.app"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -118,7 +129,7 @@ builder.Services.AddAuthorization();
 // ------------------------------------
 
 var app = builder.Build();
-
+app.UseCors("Frontend");
 
 // ------------------------------------
 // Seed Menu Items

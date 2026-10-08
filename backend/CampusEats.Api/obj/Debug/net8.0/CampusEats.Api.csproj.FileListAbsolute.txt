@@ -111,3 +111,4 @@ C:\Users\User\OneDrive - Sri Lanka Institute of Information Technology\Y1\Deskto
 C:\Users\User\OneDrive - Sri Lanka Institute of Information Technology\Y1\Desktop\Lab02\backend\CampusEats.Api\obj\Debug\net8.0\CampusEats.Api.pdb
 C:\Users\User\OneDrive - Sri Lanka Institute of Information Technology\Y1\Desktop\Lab02\backend\CampusEats.Api\obj\Debug\net8.0\CampusEats.Api.genruntimeconfig.cache
 C:\Users\User\OneDrive - Sri Lanka Institute of Information Technology\Y1\Desktop\Lab02\backend\CampusEats.Api\obj\Debug\net8.0\ref\CampusEats.Api.dll
+C:\Users\User\OneDrive - Sri Lanka Institute of Information Technology\Y1\Desktop\Lab02\backend\CampusEats.Api\obj\Debug\net8.0\CampusEats.Api.sourcelink.json
