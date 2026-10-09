@@ -129,8 +129,6 @@ builder.Services.AddAuthorization();
 // ------------------------------------
 
 var app = builder.Build();
-app.UseCors("Frontend");
-
 // ------------------------------------
 // Seed Menu Items
 // ------------------------------------
@@ -174,11 +172,9 @@ using (var scope = app.Services.CreateScope())
 // Configure HTTP request pipeline
 // ------------------------------------
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Swagger - temporary deployment testing
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
